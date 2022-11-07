@@ -19,16 +19,11 @@
 .content-row{
     display: flex;
     flex-direction: row;
-    flex: 1000;
-    padding: 3px;
-    margin: 3px;
-    width: 900px;
-    height: 500px;
+    flex: 1500;
 }
 
 .content-text{
-    display: flexbox;
-    flex-direction: row;
+    flex: 500;
     width: 450px;
     padding: 40px;
 }
@@ -38,10 +33,23 @@
     margin: 10px;
 }
 
+.paragraph
+{
+    padding: 10px;
+    text-align: left;
+    line-height: 1.3;
+    font-size: 22px;
+}
+
+.content-EmptyBox
+{
+    flex: 40;
+}
+
+
 .content-img{
     display: flex;
-    height: 500px;
-    width: 500px;
+    flex: 700;
     padding: 30px;
 }
 
@@ -103,9 +111,11 @@
 }
 
 .footer-Kontakt-nummer{
-    font-size: 23px;
-    font-weight: bolder;
-    width: 255px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 32px;
+    font-weight: bold;
+    flex: 400px;
+    width: 250px;
     padding: 1px;
     margin: auto;
     text-align: center;
@@ -117,10 +127,11 @@
 }
 
 .footer-emptySpace{
-    flex: 50px 200px;
+    flex: 200px;
     margin: 10px;
     padding: 5px;
-    width: 880px;
+    /* width: 800px; */
+    margin-right: 80px;
 }
 
 .footer-theBand-logo{
