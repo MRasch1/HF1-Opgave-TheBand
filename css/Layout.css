@@ -28,7 +28,10 @@
     padding: 40px;
 }
 
-.title{
+.title
+{
+    font-size:58px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     padding: 10px;
     margin: 10px;
 }
@@ -81,7 +84,7 @@
     margin: 10px;
     padding: 5px;
     width: 650px;
-    height: 250px;
+    height: 200px;
     margin-top: 40px;
     /* float: left;
     height: 100%;
@@ -89,6 +92,11 @@
     display:block;
     block-size: 100%; */
     
+}
+
+.Banner-Logo:hover
+{
+    background-color: rgba(255, 255, 255, 0.411);
 }
 
 .page-head {
@@ -183,7 +191,9 @@
     /* border: solid red 1px; */
 }
 
-.nav-item {
+.nav-item
+{
+    justify-content: center;
     display: flex;
     padding: 20px;
     margin: 10px;
@@ -194,6 +204,11 @@
     font-size: 25px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item:hover
+{
+ background-color: rgba(255, 255, 255, 0.377);
 }
 
 @media screen and (max-width: 1000px) {
